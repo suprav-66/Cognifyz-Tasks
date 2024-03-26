@@ -1,1 +1,13 @@
+#String Reversal
+# Function to reverse a string
+def reverse(string):
+	string = string[::-1]
+	return string
 
+s = input("Enter a string")
+
+print("The original string is : ", end="")
+print(s)
+#reversing using slicing operator
+print("The reversed string using slice operator is : ", end="")
+print(reverse(s))
